@@ -1,5 +1,14 @@
 [core]
-    remote = myremote
+    remote = local-folder
 ['remote "myremote"']
     url = gdrive://16y0I4v_qV_cSeQ6NbHZ0PmDOTtc9b2IB
     gdrive_acknowledge_abuse = true
+['remote "gdriveremote"']
+    url = gdrive://1A281FPeERHcXKAckkezU60KGqK-1xtwg
+    gdrive_acknowledge_abuse = true
+    gdrive_client_id = 520601289825-06bldvqphsk644akme2to5eb3knnhn2n.apps.googleusercontent.com
+    gdrive_client_secret = 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
+['remote "local"']
+    url = 'G:\My Drive\Storage\dvc-local"'
+['remote "local-folder"']
+    url = G:\\My Drive\\Storage\\dvc-local\
